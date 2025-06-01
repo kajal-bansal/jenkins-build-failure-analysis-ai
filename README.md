@@ -85,9 +85,9 @@ Add it in Jenkins → **Build Step → Execute Shell**.
 - Enable Attach Build Log
 
 - Add this in the email body:
- - Build Log Analysis Summary:
- - ${BUILD_LOG_AI_ANALYSIS}
- - Please see the attached log for the full console output.
+   - Build Log Analysis Summary:
+   - ${BUILD_LOG_AI_ANALYSIS}
+   - Please see the attached log for the full console output.
 
 - Ensure email settings (SMTP, port) are configured in Jenkins under Manage Jenkins → Configure System → Email Notification.
 
